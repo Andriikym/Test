@@ -10,6 +10,9 @@ let package = Package(
             targets: ["Test"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/JohnSundell/Sweep", from: "0.1.0")
+    ],
     targets: [
         .target(name: "Test")
     ]
