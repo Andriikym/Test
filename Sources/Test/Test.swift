@@ -3,6 +3,8 @@
 import Foundation
 
 public class Tester {
+    public init() { }
+    
     public func perform() {
         print("Test OK")
     }
