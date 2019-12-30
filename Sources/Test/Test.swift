@@ -14,6 +14,12 @@ public class Tester {
     public func say(_ message: String) {
         print("\(message)")
     }
+    
+    public func testBundle() {
+        let bundle = Bundle.main
+        print(bundle.bundleURL)
+         print(bundle)
+    }
 }
 
 
