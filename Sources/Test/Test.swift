@@ -2,7 +2,7 @@
 
 import Foundation
 
-class Tester {
+public class Tester {
     public func perform() {
         print("Test OK")
     }
